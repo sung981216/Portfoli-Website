@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container1">
+        <nav>
+            <a href="/">
+                <img src="images/Logo2.svg" id="logo">
+            </a>
+            <div class="header">
+                <ul>
+                    <li><a class="page-scroll" href="#aboutme">About</a></li>
+                    <li><a class="page-scroll" href="#experience">Experience</a></li>
+                    <li><a class="page-scroll" href="#projects">Projects</a></li>
+                    <li><a class="page-scroll" href="#contact">Contact</a></li>
+                </ul>
+
+                <div id="resume">
+                    <a href="resume.pdf" target="_blank">Resume</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <p id="hello">Hi! My name is</p>
+            <h1>Sung Na.</h1>
+            <h1 id="quote">My passion is web development.</h1>
+            <p id="intro">I'm a Computer Systems Technology student at BCIT and I'm currently looking for an internship
+                as a web developer. </p>
+            <div id="email">
+                <a href="mailto:sna4@my.bcit.ca" class="hero__StyledEmailLink-sc-116xg8t-5 gibhJm">Email Me</a>
+            </div>
+        </div>
+
+        <section id="aboutme">
+            <div class="aboutme">
+                <h1>A LITTLE BIT ABOUT ME</h1>
+                <img src="images/profile.JPG" id="profile">
+                <p>Hello! My name is Sung Na and I'm a software engineer that is based in Vancouver, BC who has a deep
+                    passion for web development. I'm currently a first year student at <span>BCIT</span> pursuing a
+                    diploma
+                    in <span>Computer Systems Technology</span>. I aspire towards building my experience through
+                    internships
+                    and gaining industry knowledge so that I can craft innovative software.</p>
+
+
+                <h1>Here are my <span>Technical Skills:</span></h1>
+                <div class="technical">
+                    <ul>
+                        <lh>Languages</lh>
+                        <li class="first">Java</li>
+                        <li>C</li>
+                        <li>JavaScript</li>
+                        <li>HTML5</li>
+                        <li>CSS/SCSS</li>
+                    </ul>
+
+                    <ul>
+                        <lh>Database</lh>
+                        <li class="first">Oracle SQL</li>
+                        <li>MySQL</li>
+                        <li>NoSQL (Firebase)</li>
+                    </ul>
+
+                    <ul>
+                        <lh>Frameworks & Libraries</lh>
+                        <li class="first">JQuery</li>
+                        <li>Node.js</li>
+                        <li>Bootstrap</li>
+                        <li>GSAP</li>
+                        <li>React.js</li>
+                    </ul>
+
+                    <ul>
+                        <lh>Workflow Tools</lh>
+                        <li class="first">Git</li>
+                        <li>Agile</li>
+                        <li>Scrum</li>
+                        <li>JUnit</li>
+                    </ul>
+
+                    <ul>
+                        <lh>IDE's</lh>
+                        <li class="first">Eclipse</li>
+                        <li>Visual Studio Code</li>
+                        <li>Brackets</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="experience">
+                <h3>Where I've Worked</h3>
+                <div class="jobs">
+                    <ul class="job_list">
+                        <li><button id="tab1" aria-selected="true"><span>Kleine Real Estate Team</span></button></li>
+                        <li><button id="tab2" aria-selected="false"><span>Sutton West Coast Realty</span></button></li>
+                        <li><button id="tab3" aria-selected="false"><span>Blaze Pizza</span></button></li>
+                        <li><button id="tab4" aria-selected="false"><span>Coding For All Club</span></button></li>
+
+                    </ul>
+                    <div class="job_description" id="kleine">
+                        <h4><span>Real Estate Assistant</span><span><span>&nbsp;@&nbsp;</span><a
+                                    href="http://kleineteam.com/" target="_blank">Kleine Real Estate Team</a></span>
+                        </h4>
+                        <h5><span>Jan 2019 - Present</span></h5>
+                        <div>
+                            <ul>
+                                <li>Reduce the team's workload by creating a systematic process to organize paperwork.
+                                </li>
+                                <li>Complete residential real estate documents and upload them onto a file management
+                                    system.</li>
+                                <li>Marketing Kleine Real Estate Team by sending out letters and door-knocking Vancouver
+                                    residents.</li>
+                                <li>Currently generated over $45,000 in revenue for the company through marketing
+                                    initiatives.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="job_description" id="sutton" hidden="">
+                        <h4><span>Software Instructor</span><span><span>&nbsp;@&nbsp;</span><a
+                                    href="https://suttonwestcoast.com/" target="_blank">Sutton West Coast
+                                    Realty</a></span>
+                        </h4>
+                        <h5><span>Aug 2018 - Sep 2018</span></h5>
+                        <div>
+                            <ul>
+                                <li>Facilitated a 100% adoption rate for 180 real estate agents at Sutton West Coast of
+                                    the
+                                    new file management software system called Skyslope by in person training and
+                                    technical
+                                    support.</li>
+                                <li>Assisted and guided the audit team the functionalities of Skyslope so that the audit
+                                    team can train real estate agents in the future.</li>
+                                <li>Communicated with the managing broker on a daily basis to report on the progress of
+                                    training real estate agents.</li>
+                                <li><a href="reference_letter.pdf"></a>Reference Letter</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="job_description" id="blaze" hidden="">
+                        <h4><span>Team Member</span><span><span>&nbsp;@&nbsp;</span><a
+                                    href="https://www.blazepizza.com/" target="_blank">Blaze Pizza</a></span></h4>
+                        <h5><span>July - Dec 2017</span></h5>
+                        <div>
+                            <ul>
+                                <li>Served each guest courteously, quickly and efficiently with a sincere, positive,
+                                    pleasant and enthusiastic attitude.</li>
+                                <li>Used the correct tools & procedures to prepare, build and present food that meets
+                                    Blaze
+                                    Pizza's standards.</li>
+                                <li>Maintained a clean, neat and well-stocked area so you are ready to serve guests.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="job_description" id="cfa" hidden="">
+                        <h4><span>Co-President</span><span><span>&nbsp;@&nbsp;</span><a
+                                    href="https://www.bcitsa.ca/club/coding-for-all/" target="_blank">Coding For All
+                                    Club</a><span>&nbsp;@&nbsp;</span><a href="https://www.bcitsa.ca/"
+                                    target="_blank">BCITSA</a></span></h4>
+                        <h5><span>Jan 2020 - Present</span></h5>
+                        <div>
+                            <ul>
+                                <li>Teach 1st term Computer Systems Technology students on course-relevant topics.</li>
+                                <li>Provides leadership and direction of the club.</li>
+                                <li>Organize weekly meetings with executive members and ensure all duties are complete.
+                                </li>
+                                <li>Acts as a mentor to upcoming Computer Systems Technology students.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+
+
+</html>

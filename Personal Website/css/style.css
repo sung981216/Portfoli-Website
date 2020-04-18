@@ -1,0 +1,158 @@
+body {
+  font-family: Verdana;
+}
+
+.container1 {
+  background-color: #6AFF99;
+  padding-bottom: 500px;
+  display: block;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+#logo {
+  height: 75px;
+  width: auto;
+}
+
+#resume {
+  border: 3px solid #1f4287;
+  margin: auto;
+  padding: 10px;
+}
+#resume a {
+  color: #2f89fc;
+}
+
+#resume a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  float: right;
+}
+
+nav {
+  padding: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #2f89fc;
+}
+
+.container {
+  color: #071e3d;
+  margin: 0 250px;
+}
+
+h1 {
+  margin-top: -20px;
+  margin-left: -5px;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+#quote {
+  margin-top: -50px;
+  margin-left: -5px;
+  font-size: 2.5em;
+  color: #071e3d;
+}
+
+#hello {
+  font-size: 1.3em;
+  color: #071e3d;
+}
+
+#intro {
+  font-size: 1.3em;
+  width: 550px;
+  margin-top: 70px;
+  color: #071e3d;
+}
+
+#email {
+  border: 3px solid #1f4287;
+  padding: 15px;
+  width: 100px;
+  text-align: center;
+  margin-top: 70px;
+}
+#email a {
+  color: #2f89fc;
+}
+
+#email a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.aboutme {
+  margin-top: 300px;
+  text-align: center;
+}
+.aboutme h1 {
+  font-size: 1.75em;
+  font-weight: normal;
+}
+.aboutme #profile {
+  border-radius: 50%;
+  height: 150px;
+  margin-top: 5px;
+  border: 4px solid #071e3d;
+}
+.aboutme p {
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 560px;
+  line-height: 1.6;
+}
+.aboutme span {
+  color: #2f89fc;
+}
+.aboutme h1 {
+  margin-top: 55px;
+  font-size: 1.25em;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.aboutme span {
+  color: #2f89fc;
+}
+.aboutme .technical {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 20px;
+}
+.aboutme .technical ul {
+  list-style: none;
+}
+.aboutme .technical ul lh {
+  color: #2f89fc;
+}
+.aboutme .technical ul .first {
+  margin-top: 25px;
+}
+
+.experience {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
